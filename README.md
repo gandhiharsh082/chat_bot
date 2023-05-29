@@ -33,13 +33,10 @@ Install dependencies
 pip install -r requirements.txt
 ```
 open API_KEY.text file
-Install dependencies
 
+Replace  REPLACE_TO_API_KEY to   `API_KEY`
 
-Replace  `REPLACE_TO_API_KEY` to   `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`
-
-
-Run app.py using below command to start Flask API
+Run app.py using below command to start Chat-Bot
 
 ```bash
 python main.py
