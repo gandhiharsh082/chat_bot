@@ -18,7 +18,7 @@ A Chat-bot that reply your question and calculations
 Clone the repository by running below command
 
 ```bash
-https://github.com/gandhiharsh082/chat_bot-.git](https://github.com/gandhiharsh082/chat_bot.git
+https://github.com/gandhiharsh082/chat_bot.git
 ```
 
 Open the folder by running below command
