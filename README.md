@@ -36,7 +36,7 @@ pip install -r requirements.txt
 Run app.py using below command to start Flask API
 
 ```bash
-python app.py
+python main.py
 ```
 
 Note:- You must be on python version 3.
