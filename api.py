@@ -1,5 +1,5 @@
 import openai
-openai.api_key ="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"
+openai.api_key ="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"
 start_sequence = "\nA:"
 restart_sequence = "\n\nQ: "
 prompt= ""
