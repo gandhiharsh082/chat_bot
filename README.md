@@ -32,7 +32,7 @@ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-open API_KEY.text file
+open api.py.text file
 
 Replace  REPLACE_TO_API_KEY to   `API_KEY`
 
@@ -46,6 +46,13 @@ Note:- You must be on python version 3.
 
 Navigate to URL "http://localhost:5000/"
 - Now, You should be able to view the chat page.
+
+## How to get API KEY
+
+ - Step 1 : Go to the OpenAI website (https://openai.com) and click on the "Get started" button or navigate directly to the OpenAI API page (https://www.openai.com/api/).
+ - Step 2 : Click on the "Sign up" button to create an account. If you already have an account, you can log in instead.
+ - Step 3 : Navigate to the API page or click on your account settings, where you may find a section for API access or settings.
+ - Step 4 : In the API section, you should see options to create or manage your API keys. Click on the appropriate button to generate a new API key. 
 
 
 ## API Reference

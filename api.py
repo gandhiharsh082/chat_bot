@@ -1,16 +1,11 @@
 import os
 import openai
-with open('API_KEY.text','r') as F:
-  api = F.read()
-openai.api_key =str(api)
+openai.api_key = "REPLACE_TO_API_KEY"
 start_sequence = "\nA:"
 restart_sequence = "\n\nQ: "
-prompt= ""
+prompt = ""
 def callAPI(prompt):
-  if(api == 'REPLACE_TO_API_KEY'):
-      return "Please open API_KEY.text file and  replace REPLACE_TO_API_KEY to API KEY And Restart project"
-  else:
-    response = openai.Completion.create(
+  response = openai.Completion.create(
       model="text-davinci-003",
       prompt=prompt,
       temperature=0,
@@ -21,5 +16,7 @@ def callAPI(prompt):
       stop=["\n"]
 
     )
-    return response.choices[0].text
+  return response.choices[0].text
+
+
 
